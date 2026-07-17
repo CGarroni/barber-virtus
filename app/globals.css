@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-virtus-black: #0D0D0F;
+  --color-virtus-purple-900: #2A1245;
+  --color-virtus-purple-600: #5B2A86;
+  --color-virtus-gold: #e6c766;
+  --color-virtus-white: #F5F3F0;
+  --color-virtus-gray-400: #8A8894;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-virtus-black);
+  color: var(--color-virtus-white);
+  font-family: var(--font-serif);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(90deg, var(--color-virtus-gold), #E8D9A8, var(--color-virtus-gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
